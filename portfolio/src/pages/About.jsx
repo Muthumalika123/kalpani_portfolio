@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { FaCode, FaLaptopCode, FaTools, FaGraduationCap } from "react-icons/fa";
 import "./About.css";
-import profile from "../assets/profile.jpg";
+import profile2 from "../assets/profile2.jpg";
 
 const About = () => {
   useEffect(() => {
@@ -73,7 +73,7 @@ const About = () => {
             <div className="about-image-section about-section">
               <div className="about-image-wrapper">
                 <img
-                  src={profile}
+                  src={profile2}
                   alt="About Me"
                   className="about-profile-image"
                 />
