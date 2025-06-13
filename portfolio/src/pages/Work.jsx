@@ -3,6 +3,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import "./Work.css";
 import pic1 from "../assets/pic1.png"
 import pic2 from "../assets/pic2.jpg"
+import pic3 from "../assets/pic3.png";
 
 const Work = () => {
   useEffect(() => {
@@ -29,7 +30,7 @@ const Work = () => {
       title: "Conference Management System",
       description:
         "A web-based application built using HTML, CSS, and PHP to streamline the management of academic or professional conferences. This system supports user authentication, session registration, and administrative controls.",
-      image: {pic1},
+      image: pic1,
       tags: ["HTML", "CSS", "PHP"],
       github: "https://github.com/Muthumalika123/Conference-Management-System",
       live: "https://ecommerce-demo.com",
@@ -38,7 +39,7 @@ const Work = () => {
       title: "Smart Canteen",
       description:
         "A web-based application designed to streamline and digitize the canteen management system. It allows users to view menus, place orders, and manage transactions efficiently. The system helps reduce manual work, improve order accuracy, and provide a better user experience for both customers and administrators.",
-      image: {pic2},
+      image: pic2,
       tags: ["React", "Firebase", "Material-UI", "Redux"],
       github: "https://github.com/Muthumalika123/Smart-Canteen",
       live: "https://task-manager-demo.com",
@@ -47,10 +48,10 @@ const Work = () => {
       title: "Porfolio Website",
       description:
         "A weather dashboard that provides real-time weather information, forecasts, and interactive maps using various weather APIs.",
-      image: "https://via.placeholder.com/600x400",
-      tags: ["JavaScript", "OpenWeather API", "Chart.js", "CSS"],
-      github: "https://github.com/yourusername/weather-dashboard",
-      live: "https://weather-dashboard-demo.com",
+      image: pic3,
+      tags: ["React", "React Icons", "CSS"],
+      github: "https://github.com/Muthumalika123/kalpani_portfolio",
+      live: "https://kalpani-portfolio-fa5n.vercel.app/",
     },
     // {
     //   title: "Portfolio Website",
